@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8A2BE2; /* Purple background color */
+    margin: 0; /* Remove default body margin */
+}
+
+.header_text, .text {
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 30px; /* Adjust font size */
+    font-weight: bold;
+    color: #FFD700; /* Gold text color */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image {
+    max-height: 5cm;
+    max-width: 5cm; /* Ensure the image doesn't exceed its natural size */
+    border-radius: 10px; /* Optional: Add border-radius for a rounded look */
+}
